@@ -1,0 +1,26 @@
+{
+  "name": "control-LED-ArQ2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firebase",
+    "led",
+    "control",
+    "nodejs",
+    "express",
+    "iot"
+  ],
+  "author": "Julio Cesar Aguilar Sobalvarro (Carné: 1190-03-14929), Christopher Imanol Sandoval Urrutia (Carné: 1190-21-14806)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase-admin": "^12.5.0",
+    "ws": "^8.18.0"
+  }
+}
